@@ -70,22 +70,6 @@ export const Login = (props: any) => {
             setSubmitting(false)
             setStatus('The login detail is incorrect')
           })
-
-        // getMenuItems()
-        //   .then(res => {
-        //     setLoading(false)
-        //     if(res.data){
-        //       console.log(res.data, typeof(res.data), "____tmp____")
-        //       dispatch(auth.actions.menuItems(res.data))
-        //     }
-        //     else
-        //       window.location.reload();
-        //   })
-        //   .catch(() => {
-        //     setSubmitting(false)
-        //     setLoading(false)
-        //     setStatus('The menuItems is incorrect')
-        //   })
         
       }, 1000)
 
